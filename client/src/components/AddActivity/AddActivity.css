@@ -1,0 +1,38 @@
+.activityMain{
+    background-image: url("../../img/homebackgroudn.jpg")no-repeat center center fixed;
+    background-size: cover;
+    background-position: 20px;
+}
+
+.activityMain h1 {
+    font-family: cursive;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: dimgray;
+    backdrop-filter: blur(40px);
+    border-style: solid;
+    border-width: .3rem;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 190px;
+    font-family: cursive;
+}
+
+.formulario div{
+    display: flex;
+    flex-direction: column;
+}
+
+.error{
+    color: red;
+    background-color: black;
+}

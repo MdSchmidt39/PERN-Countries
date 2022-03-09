@@ -1,0 +1,19 @@
+.cardDetailDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: dimgray;
+    margin: 300px;
+    border-radius: 30px;
+    border: 10px solid black;
+    font-family: cursive;
+    margin-bottom: 300px;
+}
+
+.flagDiv{
+    border: 3px solid black;
+}
+
+.country-flag{
+    width: 400px;
+}
