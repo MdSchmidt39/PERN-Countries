@@ -55,6 +55,11 @@ export default function Home(){
             <div className="filters">
                 <Filter filterSelection={filterSelection } setFilterSelection={setFilterSelection}/>
             </div>
+            {
+            currentCountries?
+            <Cards countries={currentCountries}/>:
+            <span className="errorMsg">No hay un país que coincida con la busqueda</span>
+            }
             <div className="paginated-div">
                 <Paginated
                     countriesPerPage={ countriesPerPage }
@@ -63,11 +68,6 @@ export default function Home(){
                     currentPage={currentPage}        
                     />
             </div>
-            {
-            currentCountries?
-            <Cards countries={currentCountries}/>:
-            <span className="errorMsg">No hay un país que coincida con la busqueda</span>
-            }
         </div>
     )
 }

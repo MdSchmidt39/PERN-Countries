@@ -17,11 +17,13 @@ body{
 }
 
 
+
 .homeBody{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color:rgb(151, 147, 138)
 }
 
 .search{

@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import { Link } from "react-router-dom"
+import "./Card.css"
 
 
 export default function Cards({countries}){

@@ -2,10 +2,20 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: darkgray;
+    background-color: orange;
     display: flex;
     width: 1350px;
-    font-family: cursive;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.nav a:link {
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color:rgb(173, 126, 8);
 }
 
 
@@ -13,30 +23,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: dimgray;
-    border-radius: 10px;
-    border-color: black;
-    border: 5px;
-    border-style: double ;
     padding: 10px;
 }
 
-.menu a{
-    margin: 10px;
-}
 
 .homeTitle {
-    font-family: cursive;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
 
-.button:hover{
-    background-color: grey;
-    border: 2px solid white;
-    border-radius: 10px;
-}
 
-.button{
-    padding: 5px;
+.button p{
+    font-size: 15px;
 }
-

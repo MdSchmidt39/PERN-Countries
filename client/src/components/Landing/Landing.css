@@ -1,38 +1,43 @@
 .landing {
-    background-image: url("../../img/backgroundlanding.jpg");
-    background-repeat: no-repeat;
+    background: url("../../img/homebackgroudn.jpg") no-repeat center center fixed;
+    /* background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    border: none;
-
+    position: fixed; */
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around
 }
 
 .landingTitle {
     text-align: center;
-    color: ivory;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 25px;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    text-shadow: 5px 5px 15px black;
 }
 
 .landingBtn {
-    border-radius: 15px;
-    margin-left: 800px;
-    margin-top: 200px;
+    border-radius: 5px;
     border-color: black;
     border-style: groove;
-    font-family: monospace ;
-    color: antiquewhite;
-    font-weight: 900;
-    background-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: black;
+    font-size: large;
+    background-color:darkgoldenrod;
     cursor: pointer;
-    transform: rotate(2deg) perspective(1000px);
+    /* transform: rotate(2deg) perspective(1000px); */
+    height: 50px;
+    margin-top: 250px;
+    box-shadow: 5px 5px 15px black;
+    
 }
 
 .landingBtn:hover{
-    background-color: cadetblue;
+    background-color:orange;
 }
